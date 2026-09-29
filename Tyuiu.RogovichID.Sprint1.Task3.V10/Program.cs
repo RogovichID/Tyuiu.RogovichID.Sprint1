@@ -30,7 +30,7 @@ namespace Tyuiu.RogovichID.Sprint1.Task3.V10;
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine(ds.NumberToMoney(x));
+        Console.WriteLine(x + " руб. - это " + ds.NumberToMoney(x));
 
     }
 }

@@ -14,7 +14,7 @@ public class DataService : ISprint1Task3V10
             rub++;
             kop = 0;
         }
-        return $"{rub} рублей {kop} копеек";
+        return $"{rub} руб. {kop} коп.";
 
     }
 }

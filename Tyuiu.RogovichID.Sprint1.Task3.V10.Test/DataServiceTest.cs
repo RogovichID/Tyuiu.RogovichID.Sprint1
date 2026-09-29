@@ -12,7 +12,7 @@ namespace Tyuiu.RogovichID.Sprint1.Task3.V10.Test
             double x = 10.25;
             string res = ds.NumberToMoney(x);
 
-            Assert.AreEqual("10 рублей 25 копеек", res);
+            Assert.AreEqual("10 руб. 25 коп.", res);
         }
     }
 }
