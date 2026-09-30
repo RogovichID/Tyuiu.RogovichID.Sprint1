@@ -8,13 +8,18 @@ public class DataService : ISprint1Task3V10
         number = Math.Round(number,3);
         int rub = (int)number;
         int kop = (int)Math.Round((number - rub) * 100);
-        
-        if (kop == 100)
+        int rk;
+        if (kop % 10 == 0)
         {
-            rub++;
-            kop = 0;
+            rk = kop / 10;
         }
-        return $"{rub}.{kop} руб. - это {rub} руб. {kop} коп.";
+        else
+        {
+            rk = kop;
+        }
+
+
+        return $"{rub}.{rk} руб. - это {rub} руб. {kop} коп.";
 
     }
 }
